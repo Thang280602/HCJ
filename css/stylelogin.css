@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main2{
+   position: relative;
+}
+.banner-img{
+    width: 100%;
+}
+/* .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 100px;
+    width: 100vw;
+    height: 100vh;
+} */
+.form-login2{
+    width: 400px;
+    background-color: white;
+    padding:40px 30px;
+    border-radius: 10px;
+    top: 35px;
+    right: 200px;
+    position: absolute;
+}
+.form-login2 h1{
+    margin-bottom: 30px;
+}
+.TD{
+    text-align: center;
+}
+.form-control1{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+input:focus{
+    outline: none;
+}
+.form-text2{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    position: relative;
+}
+.form-text2 label{
+    padding-top: 5px;
+    margin-right: 5px;
+}
+.btn-login2{
+    padding: 7px;
+    width: 100%;
+    margin-top: 0px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.forget{
+    color:red;
+    text-align: center;
+}
+.divforget{
+    margin-top: 15px;
+    margin-left: 120px ;
+}
+.divchoose{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.err1,.err2{
+    padding-bottom: 10px !important;
+}
+.f{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.luachon{
+    margin-top: 20px;
+}
+.luachon1 {
+    margin-right: 40px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(153, 11, 16, 0.121);
+    height: 30px;
+    width: 100px;
+}
+.luachon2{
+    border-radius: 10px;
+    border: 0.5px solid  rgba(153, 11, 16, 0.121);
+    height: 30px;
+    width: 100px;
+}
+.luachon1 i span{
+    color: black;
+}
+.luachon1 i{
+    color:rgba(219, 102, 60, 0.697);
+}
+.luachon2 i span{
+    color: black;
+}
+.luachon2 i{
+    color:rgb(88, 28, 228);
+}
+.loginlate{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+footer{
+    margin-top: -10px;
+}
+@media screen and (max-width:1440px) {
+    body{
+        width: 100%;
+    }
+    .form-a{
+        width: 260px !important;
+    }
+    .form-login2{
+        margin-right: -100px;
+        margin-top:20px;
+    }
+    .form-inline{
+        width: 30%;
+    }
+}
+@media screen and (max-width:768px) {
+    body{
+        width: 100%;
+    }
+    .form-login2{
+        margin-right: -168px;
+        margin-top: -4px;
+    }
+    .main2{
+        height: 580px;
+    }
+    .banner-img{
+        height: 580px;
+    }
+    .form-login2 h4{
+        font-size: 1rem;
+    }
+    .divforget{
+        margin-left: 60px;
+    }
+    .divchoose{
+        margin-left: 30px;
+    }
+    .choose{
+        font-size:1rem;
+    }
+    .errr{
+        font-size: 0.7rem;
+    }
+    
+}
+@media screen and (max-width:320px) {
+    body{
+        width: 100%;
+    }
+
+    .form-login2{
+        width: 70%;
+        margin-right: -193px;
+        margin-top: 3px;
+    }
+    .main2{
+        height: 530px;
+    }
+    .banner-img{
+        height: 500px;
+    }
+    .form-login2 h4{
+        font-size: 0.7rem;
+        margin-top: -20px;
+    }
+    .form-text2{
+        font-size: 0.7rem;
+        margin-bottom:0px !important;
+    }
+    .choose{
+        font-size: 0.7rem;
+        padding-left: 25px;
+    }
+    .btn-login2{
+        margin-top: 20px;
+        margin-left: 10px;
+        width:150px;
+
+    }
+    .forget{
+        font-size: 0.7rem;
+        padding-left: 25px;
+    }
+    .h{
+        font-size: 0.5rem !important;
+    }
+    .form-control1{
+        height:30px !important;
+    }
+    .loginlate{
+        font-size: 8px;
+    }
+    .divchoose{
+        margin-top: -5px;
+        margin-left: 10px;
+    }
+   .divforget{
+    margin-left: 20px;
+   }
+    .choose{
+        font-size: 10px;
+      
+    }
+    .btn-login2,.divforget{
+        font-size: 0.7rem;
+    }
+    a>i{
+        font-size: 0.8rem;
+        margin-top: -5px;
+    }
+    .loginlate{
+        margin-top: 22px;
+        font-size: 0.7rem;
+        width: 150px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    .err1,.err2{
+        font-size: 0.7rem;
+    }
+    .f{
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main3{
+    position: relative;
+    
+}
+.banner-img{
+    width: 100%;
+}
+/* .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+} */
+.form-login3{
+    position: absolute;
+    top: 35px;
+    right: 207px;
+    width: 400px;
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+}
+.dtt{
+    display: flex;
+}
+.errr{
+    display: flex;
+}
+.form-group label{
+    width: 35%;
+}
+.form-group input{
+    width: 65%;
+}
+.LC{
+    width: 70%;
+}
+.TD{
+    width: 40%;
+}
+.GioiTinh{
+    margin-bottom: 10px;
+}
+.title{
+    text-align: center;
+    padding-bottom: 10px;   
+}
+footer{
+    margin-top: 2px;
+}
+.btn-submit{
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    padding: .375rem .75rem;
+    width: 320px;
+    border-radius: .25rem;
+    background-color: rgb(108, 108, 242);
+}
+
+.btn-submit:hover {
+    background-color: rgb(89, 89, 247);
+}
+
+.a{
+    color: red;
+}
+@media screen and (max-width:1440px) {
+    body {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:768px) {
+    body {
+        width: 768px;
+    }
+    .banner-img{
+        height: 600px;
+    }
+    .form-login3{
+      position: absolute;
+      width: 50%;
+      right: 12px;
+      top: 10px;
+    }
+    .btn-submit{
+        width: 260px;
+    }
+    .form-search{
+        width: 65%;
+        margin-right: -80px;
+    }
+}
+@media screen and (max-width:320px) {
+    body {
+        width: 100%;
+    }
+    .banner-img{
+        height: 100%;
+    }
+    .form-login3{
+      position: absolute;
+      width: 90%;
+      height: 620px;
+      right: 16px;
+      top: 9px;
+    }
+    .btn-submit{
+        width: 160px;
+    }
+    .form-search{
+        width: 40%;
+        width: 200px;
+    }
+    .main3{
+        height: 640px;
+    }
+    .btn{
+        margin-left: 23px;
+    }
+}

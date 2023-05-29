@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu3 {
+    background-color: #F8F9FA;
+    height: 50px;
+}
+
+.menunew {
+    padding-top: 15px;
+    margin-left: -230px;
+}
+
+.menu2 a {
+    color: #707070;
+}
+
+.menu2 a:hover {
+    color: blueviolet;
+}
+
+.TD1 {
+    font-weight: 50px;
+    text-align: center;
+}
+
+.TD5 {
+    display: flex;
+    justify-content: center;
+}
+
+.T2 span {
+    font-size: 0.6rem;
+}
+
+.T4 {
+    margin-left: 80px;
+}
+
+.T2 {
+    margin-left: 80px;
+}
+
+.T3 {
+    margin-left: 80px;
+}
+
+.T3 span,
+.T3 a {
+    font-size: 0.6rem;
+}
+
+.pr1 {
+    margin-top: 15px;
+    font-size: 0.8rem;
+}
+
+.d1 i {
+    color: blueviolet;
+    padding-right: 10px;
+
+}
+
+.d1 {
+    margin-left: 100px;
+}
+
+.g i {
+    padding-left: 5px;
+}
+
+.g span {
+    padding-left: 5px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.g {
+    border: 1px solid black;
+    width: 50px;
+}
+
+.T8 {
+    margin-top: 30px;
+}
+.T9{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 30px;
+}
+.T11{
+    margin-top: 20px;
+}
+.ion{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.y{
+    margin-left: 20px;
+}
+.Ten{
+    padding-top: 15px;
+}
+.k{
+    margin-left: 70px;
+}
+.lan2{
+    margin-left: 50px;
+}
+.lan3{
+    margin-left: 100px;
+}
+.Ten,.q,.y,.k span{
+    font-size: 0.8rem;
+}
+@media screen and (max-width:768px) {
+    .menu3{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:320px) {
+    .T3{
+        display: none;
+    }
+    .T7{
+        display: none;
+    }
+    .lan2{
+        margin-left: 0px;
+    }
+    .lan3{
+        margin-left: 0px;
+    }
+    .k{
+        margin-left: 0;
+    }
+    .T4,.T2{
+        margin-left: 20px;
+    }
+    .menu2 a{
+        font-size: 0.5rem;
+    }
+    .TD1{
+        font-size: 1rem;
+    }
+}
